@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daseg | Desarrollador Web</title>
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/icons/favicon-256x256.png" type="image/x-icon">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Bootstarp -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <img src="./img/icons/Daseg-PhotoRoom (1).png" alt="Daseg-Logo">
+        <h1>Dario Gimenez</h1>
+        <ul class="navegacion">
+          <li><a href="#about" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- Sección Hero  -->
+    <section class="hero" id="about">
+        <img src="./img/michael-baccin-XopauR-Nagk-unsplash.jpg" alt="Computer">
+        <div class="bio animate__animated animate__shakeX">
+            <!-- Sobre Mí -->
+            <h2 class="bio-titulo" >Sobre Mí</h2>
+            <p class="bio-texto">
+                He incursionado en el mundo de las tecnologías informáticas recientemente. Estudiante de la carrera de Ingeniería Informática en la Universidad de Buenos Aires. He realizado curso de Diseño web dictado por la Universidad Tecnólogica Nacional. Asimismo me voy capactitando en diversos lenguajes de programación en caracter autodidacta.
+                Actualmente me encuentro haciendo un curso de Full Stack Python dictado por el programa Codo a Codo.
+            </p>
+        </div>
+    </section>
+    
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="header-habilidad">Mis habilidades</h2>
+
+        <div class="contenedor-habilidad">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="./img/icons/icons8-css3.svg" alt="css-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-html-5.svg" alt="html-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-javascript.svg" alt="js-icon" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="./img/icons/icons8-bootstrap.svg" alt="bootstrap-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-git.svg" alt="git-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-github.svg" alt="github-icon" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="third-set animate__animated animate__pulse">
+                <img src="./img/icons/icons8-python.svg" alt="python-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-sass.svg" alt="sass-icon" loading="lazy" class="icon icon-card">
+                <img src="./img/icons/icons8-vue-js.svg" alt="vue-icon" loading="lazy" class="icon icon-card">
+
+            </div>
+        </div>
+    </section>
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyecto">Algunos de mis proyectos</h2>
+        <div class="contenedor-de-proyectos">
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+                <img src="./img/studentsCoffee.png" alt="studentsCoffee" loading="lazy" class="foto-proyecto">
+                <h3 class="titulo-de-proyecto">The Student's Coffee</h3>
+                <p class="detalle-de-proyecto">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="https://studentscoffee.netlify.app/" class="enlace-de-proyecto">Visitar</a>
+            </div>
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+                <img src="./img/simpleLayout.png" alt="simplelayout" loading="lazy" class="foto-proyecto">
+                <h3 class="titulo-de-proyecto">Layout Simple</h3>
+                <p class="detalle-de-proyecto">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="https://simplelayout2022.netlify.app/" class="enlace-de-proyecto">Visitar</a>
+            </div>
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+                <img src="./img/drj.png" alt="drjwebsite" loading="lazy" class="foto-proyecto">
+                <h3 class="titulo-de-proyecto">Dr.J Devs</h3>
+                <p class="detalle-de-proyecto">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    ratione vel inventore labore commodi modi quos culpa aut saepe!
+                    Alias!
+                </p>
+                <a href="https://drjwebsite.netlify.app/" class="enlace-de-proyecto">Visitar</a>
+            </div>
+        </div>
+    </section>
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+        <h2>Contactame</h2>
+        <div class="formulario-contacto-contenedor">
+            <div class="formulario">
+                <form action="https://formspree.io/f/mvoybldd" method="post">
+                    <div class="control-formulario mb-3">
+                        <label class="form-label" for="name">Nombre</label>
+                        <input class="form-control-sm input-field" type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-field" required>
+                    </div>
+                    <div class="control-formulario">
+                        <label class="form-label" for="email">Email</label>
+                        <input class="form-control-sm input-field" type="email" id="email" name="sender-email" placeholder="Ingresa tu correo electrónico" class="input-field" required>
+                    </div>
+                    <div class="control-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="input-field color form-control" placeholder="Escribe tu mensaje" required></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" id="submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+    <div class="sociales">
+        <a href="https://www.instagram.com/daseg_/" target="_blank"><img loading="lazy" class="socicon" src="./img/icons/icons8-instagram.gif" alt="Instagram"></a>
+        <a href="https://www.facebook.com/daseg2109/" target="_blank"><img loading="lazy" class="socicon" src="./img/icons/icons8-facebook-rodeado-de-círculo.gif" alt="Facebook"></a>
+        <a href="https://www.facebook.com/daseg2109/" target="_blank"><img loading="lazy" class="socicon" src="./img/icons/icons8-twitter-circled.gif" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/daseg/" target="_blank"><img loading="lazy" class="socicon" src="./img/icons/icons8-linkedin-rodeado-de-círculo.gif" alt="Linkedin"></a>
+        <a href="https://github.com/dasegC" target="_blank"><img loading="lazy" class="socicon" src="./img/icons/icons8-github.gif" alt="Github"></a>
+    </div>
+    <!-- Vuelve al comienzo  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba">
+        <img src="./img/icons/icons8-upward-arrow.gif" alt="ir-arriba" class="socicon up-arrow">
+    </i>
+    <!-- Sección Footer  -->
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            By &#64; <a href="https://www.instagram.com/daseg_/" target="_blank">Daseg</a> 
+        </p>
+    </footer>
+    <!-- Website scripts -->
+    <script src="./js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
